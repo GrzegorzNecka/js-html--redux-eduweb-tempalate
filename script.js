@@ -5,9 +5,7 @@ const { createStore } = Reducer;
 const initialState = {
   notes: []
 };
-
-console.log(createStore);
-
+console.log("sss");
 const myReducer = (state = initialState, action) => {
   console.log(action);
 };
