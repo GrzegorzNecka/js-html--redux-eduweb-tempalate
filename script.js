@@ -1,5 +1,7 @@
 import { createStore } from "redux";
 
+const { createStore } = Reducer;
+
 const initialState = {
   notes: []
 };
