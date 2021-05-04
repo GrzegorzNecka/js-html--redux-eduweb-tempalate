@@ -6,6 +6,8 @@ const initialState = {
   notes: []
 };
 
+console.log(createStore);
+
 const myReducer = (state = initialState, action) => {
   console.log(action);
 };
